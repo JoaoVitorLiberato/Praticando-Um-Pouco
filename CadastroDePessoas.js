@@ -21,7 +21,7 @@ const cadastrarNovaPessoa = (CPF, NOME, FILIAÇÃO, CEP, ENDERECO, COMPLEMENTO, 
         ESTADO,
     }
     cadastroDePessoas.push(novaPessoa);
-    console.log(`${NOME} Cadastrado com sucesso!`);
+    console.log(`${cadastroDePessoas.NOME} Cadastrado com sucesso!`);
 }
 
 console.log(cadastroDePessoas);
